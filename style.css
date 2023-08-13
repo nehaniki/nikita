@@ -1,0 +1,267 @@
+*{
+    padding: 0; margin: 0; box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.wrapper{
+    width: 100%;
+    height: auto;
+    background:linear-gradient(rgba(247, 188, 239, 0.7), rgba(198, 240, 250, 0.7));
+    margin-top: 10px;
+}
+.wrapper1{
+    width: 100%;
+    height: auto;
+    background-color:rgb(237, 245, 248);
+    margin-top: 50px;
+}
+.logo{
+    color:#fa70aa;
+    font-size: 20px;
+}
+.logo h1{
+    padding-top: 20px;
+}
+span{
+    color: black;
+}
+.navbar{
+    width: 100%;
+    height: auto;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+.container{
+    max-width: 1180px;
+    margin-inline: auto;
+    /* overflow: hidden; */
+}
+.mainnav{
+    justify-content: space-between;
+}
+.navlink{
+    justify-content: end;
+    gap: 40px;
+}
+.btn{
+    border: 2px solid #fa70aa;
+    background-color: #fa70aa;
+    border-radius: 200px;
+    padding: 10px 15px 10px 15px;
+}
+.btn h3{
+    color: white;
+}
+.headerleft h1{
+    margin-top: 20px;
+    font-size: 40px;
+}
+.headerleft p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.headerleft{
+    max-width: 40vw;
+}
+.check{
+    margin-top: 40px;
+}
+.list{
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.header-section{
+    justify-content: space-between;
+}
+.featuresection{
+    padding-top: 80px;
+}
+.featureheader{
+    text-align: center;
+}
+.featureheader p{
+    max-width: 60vw;
+    font-size: 20px;
+    padding-top: 10px;
+    margin: auto;
+}
+.featureheader h1{
+    font-size: 40px;
+}
+.featurecard {
+    flex-direction: column;
+    gap: 10px;
+    max-width: 30%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.featurearea{
+    justify-content: space-between;
+}
+.featurecard img{
+    width: 150px;
+    height: 150px;
+}
+.head{
+    text-align: center;
+    margin-top: 100px;
+}
+.head h1{
+    max-width: 40%;
+    margin: auto;
+    padding-top: 20px;
+}
+.featureimg{
+    flex-direction: column;
+    max-width: 50%;
+    text-align: center;
+    /* margin-top: 30px; */
+}
+.featureimg img{
+    width: 100px;
+    height: 100px;
+}
+.uncover{
+    margin-top: 30px;
+}
+.outline{
+    margin-left: auto;
+}
+.bigfeaturesection{
+    width: 60%;
+    margin: auto;
+}
+.poster{
+    width: 70%;
+    height: auto;
+    background:linear-gradient(rgba(240, 148, 228, 0.7), rgba(215, 242, 248, 0.7));
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 30px;
+}
+.poster h4{
+    width: 50%;
+    line-height: 30px;
+    margin: auto;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.poster h5{
+    padding-top: 40px;
+}
+.poster1{
+    height: auto;
+    border-radius: 20px;
+}
+.poster1 h2,h1{
+    padding-top: 30px;
+}
+.posterlist{
+    padding-top: 30px;
+    font-size: 20px;
+    max-width: 80%;
+    height: auto;
+    margin: auto;
+    justify-content: space-around;
+}
+.secure{
+    padding: 10px 50px 10px 50px;
+}
+.test1{
+    margin-top: 50px;
+}
+.test1 p{
+    font-size: 18px;
+}
+.test1 img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+.wrap{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    padding-top: 70px;
+}
+.footer{
+    margin-top: 40px;
+}
+.footer p{
+    line-height: 30px;
+}
+.footlogo{
+    margin-top: 50px;
+}
+@media (max-width:991px) {
+    .container{
+        max-width: 900px;
+    }
+    .list{
+        font-size: 15px;
+    }
+    .wrap{
+        width: 100%;
+    }
+    
+   
+}
+@media (max-width:767px) {
+    .container{
+        width: 700px;
+    }
+    .header-section{
+        flex-direction: column-reverse;
+    }
+    .headerleft{
+        max-width: 100%;
+    }
+    .check{
+        margin-top: 20px;
+    }
+    .wrap{
+        padding-top: 10px;
+    }
+    .bigfeaturesection
+    {
+        width: 100%;
+    }
+    .head h1{
+        max-width: 100%;
+    }
+}
+@media (max-width:479px) {
+    .container{
+        width: 400px;
+    }
+    .head h1{
+        font-size: 20px;
+    }
+    .logo{
+        font-size: 15px;
+    }
+    .navlink{
+        gap:10px;
+    }
+    .btn{
+        font-size: 10px;
+        padding: 5px;
+    }
+    .featurearea{
+        flex-direction: column;
+    }
+    .featurecard{
+        max-width: 100%;
+    }
+}
